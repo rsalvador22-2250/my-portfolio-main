@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ========== DARK MODE STYLES ========== */
+body.dark-mode {
+  background: #0a0e27;
+  color: #ffffff;
+}
+
+body.dark-mode nav {
+  background-color: #0f1535 !important;
+}
+
+body.dark-mode nav .link {
+  color: white !important;
+}
+
+body.dark-mode #about {
+  background-color: #0f1535 !important;
+}
+
+body.dark-mode #skills {
+  background-color: #0a0e27 !important;
+}
+
+body.dark-mode #projects {
+  background-color: #0f1535 !important;
+}
+
+body.dark-mode #contact {
+  background-color: #0a0e27 !important;
+}
+
+body.dark-mode .sectionTitle {
+  color: white !important;
+}
+
+body.dark-mode .skill-card,
+body.dark-mode .project-card,
+body.dark-mode .info {
+  background-color: #1a1f4e !important;
+  color: white !important;
+}
+
+body.dark-mode .skill-card h3,
+body.dark-mode .project-card h3 {
+  color: #667eea !important;
+}
+
+body.dark-mode .paragraph,
+body.dark-mode .project-card p {
+  color: #cccccc !important;
+}
+
+body.dark-mode .tech {
+  background-color: #0a0e27 !important;
+  color: #667eea !important;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: #0f1535 !important;
+  color: white !important;
+  border-color: #667eea !important;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #888 !important;
+}
+
+body.dark-mode #home {
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f4e 100%) !important;
+}
+
+body.dark-mode .socialIcon {
+  background-color: #667eea !important;
+}
+
+body.dark-mode .backToTop {
+  background-color: #667eea !important;
+}
+
+body.dark-mode .demoLink {
+  background-color: #667eea !important;
+}
+
+body.dark-mode .socialLink {
+  background-color: #667eea !important;
+}
